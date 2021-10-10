@@ -1,0 +1,12 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class main
+class gather_word_frequency
+class word_output
+
+main -> gather_word_frequency
+gather_word_frequency -> word_output
+
+
+@enduml
