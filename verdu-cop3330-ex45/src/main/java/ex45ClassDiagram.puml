@@ -1,0 +1,15 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+main->file_edit_output
+
+class main{
+Name
+}
+
+class file_edit_output{
+Output file
+}
+
+
+@enduml
