@@ -1,0 +1,14 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class main
+class HTML_File_Creator
+class HTML_File_Editor
+
+
+main -> HTML_File_Creator
+HTML_File_Editor <- main
+
+
+
+@enduml
