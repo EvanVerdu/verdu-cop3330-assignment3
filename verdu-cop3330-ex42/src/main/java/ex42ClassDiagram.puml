@@ -1,0 +1,16 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class main
+class input
+class formatter
+class output
+
+input <-> main
+main -> output
+main <-> formatter
+
+
+
+
+@enduml
